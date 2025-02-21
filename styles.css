@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0 0 15px;
+  color: #333;
+  /* line-height: 5ch; */
+  padding-top: 20px;
+}
+
+.expense-form input[type="text"],
+.expense-form input[type="number"] {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.expense-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #31279e;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button {
+  width: 70px;
+  background-color: #31279e;
+  color: white;
+  border-radius: 4px;
+}
+
+.expense-form button:hover {
+  background-color: #3b3a88;
+}
+
+#expense-list {
+  list-style: none;
+  padding: 0;
+}
+
+#expense-list li {
+  background-color: #f9f9f9;
+  margin-bottom: 8px;
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ddd;
+}
+
+#total h3 {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 15px;
+}
